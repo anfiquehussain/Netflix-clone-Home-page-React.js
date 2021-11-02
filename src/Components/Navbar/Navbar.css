@@ -1,0 +1,23 @@
+
+.Navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    padding: 13px;
+    display: flex;
+    float: left;
+    justify-content: space-between;
+
+}
+
+.logo{
+    position: fixed;
+    left: 20px;
+    width: 80px;
+}
+.Avatar{
+    position: fixed;
+    right: 10px;
+    width: 30px;
+}

@@ -1,0 +1,56 @@
+.row{
+    margin-left: 20px;
+    color: white;
+
+}
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.posterImg{
+    max-height: 250px;
+    margin-right: 10px;  
+    cursor: pointer; 
+    transition: all .2s ease-in-out; 
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+
+}
+.orgTitle{
+    margin: auto;
+    width: 10%;
+    margin-top: 10px;
+    font-size: 25px;
+    display:inline;
+    margin-right:20px;
+    
+}
+.smalltitle{
+
+    margin: auto;
+    width: 10%;
+    margin-top: 10px;
+    font-size: 15px;
+    display:inline;
+    margin-right:20px;
+
+}
+
+.smallposter{
+    max-height: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+
+}
+.posterImg:hover{
+    transform: scale(1.1);
+}
+.smallposter:hover{
+    transform: scale(1.1);
+}
+
